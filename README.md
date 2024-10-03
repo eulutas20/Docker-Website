@@ -4,24 +4,6 @@ This project is designed as part of an introductory DevOps course, focusing on c
 Project Overview
 The goal of this project is to build a simple game while applying DevOps principles such as containerization, orchestration, and service isolation. The application is split into multiple services that can be independently deployed and managed.
 
-Project Structure
-comp350-intro-to-devops-project-1-kucuk_oyun-main/
-│
-└── project/
-    ├── docker-compose.yml          # Docker Compose file to manage multiple services
-    ├── nginx/                      # NGINX configuration for load balancing and routing
-    ├── service-b/                  # First service written in Node.js
-    │   ├── Dockerfile              # Dockerfile for service-b
-    │   ├── index.js                # Main application logic for service-b
-    │   ├── package.json            # Dependencies and scripts for service-b
-    │   └── package-lock.json
-    ├── service-c/                  # Second service written in Node.js
-    │   ├── Dockerfile              # Dockerfile for service-c
-    │   ├── index.js                # Main application logic for service-c
-    │   ├── package.json            # Dependencies and scripts for service-c
-    │   └── package-lock.json
-    └── data/                       # Game data (if applicable)
-    
 Services
 1. Service B
 Technology: Node.js
